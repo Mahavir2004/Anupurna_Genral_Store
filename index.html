@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .head {
+            border: 2px solid black none;
+            height: 35px;
+            width: 100%;
+            background-color: rgb(231, 228, 228);
+        }
+
+        .head nav {
+            display: flex;
+            justify-content: center;
+            column-gap: 30px;
+        }
+
+        .head a {
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+        }
+
+        .art p {
+            font-size: larger;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .asi p {
+            font-size: 30px;
+            font-weight: bolder;
+            margin-left: 5px;
+            display: inline;
+        }
+
+        .color {
+            color: rgb(121, 121, 121);
+        }
+
+        .section {
+            display: flex;
+            column-gap: 50px;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .section img {
+            border-radius: 100%;
+        }
+
+        .sec {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .box {
+            border: 2px solid black;
+            height: 50vh;
+            width: 20vw;
+            margin-top: 10px;
+            border-radius: 10px;
+            background: radial-gradient(circle, #D7D7D7, #FFEFD2);
+
+
+        }
+
+        .box2 {
+            border: 2px solid black;
+            height: 50vh;
+            width: 20vw;
+            margin-top: 10px;
+            border-radius: 10px;
+            background: radial-gradient(circle, #D7D7D7, #FFD2D2);
+        }
+
+        .box3 {
+            border: 2px solid black;
+            height: 50vh;
+            width: 20vw;
+            margin-top: 10px;
+            border-radius: 10px;
+            background: radial-gradient(circle, #D7D7D7, #27D8E8);
+
+        }
+
+        .Beardo {
+            font-size: 20px;
+            border: 2px solid blac none;
+            width: 60px;
+            background: linear-gradient(to right, #1671f0, rgb(238, 67, 216), #f0980a);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 20px;
+        }
+
+        .box3 img {
+            position: relative;
+            top: 22px;
+            left: 45px;
+
+        }
+
+        .aata {
+            font-size: 20px;
+            border: 2px solid black none;
+            width: 100px;
+            background: linear-gradient(to right, #e81b1b, #f0980a);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 20px;
+
+        }
+
+        .box img {
+
+
+
+            position: relative;
+            top: 20px;
+            left: 65px;
+        }
+
+        .chocolate {
+            font-size: 20px;
+            border: 2px solid black none;
+            width: 100px;
+            background: linear-gradient(to right, #FF1AE0, #E44E25);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 20px;
+        }
+
+        .box2 img {
+            position: relative;
+            left: 55px;
+        }
+
+        .box:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgb(248, 221, 125);
+            transition: all 0.5s ease-in-out;
+            cursor: pointer;
+            z-index: 1;
+        }
+
+        .box2:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgb(245, 42, 235);
+            transition: all 0.5s ease-in-out;
+            cursor: pointer;
+            z-index: 1;
+        }
+
+        .box3:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgb(42, 197, 245);
+            transition: all 0.5s ease-in-out;
+            cursor: pointer;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="head">
+        <nav>
+            <a href="#">Store</a>
+            <a href="#">Soap</a>
+            <a href="#">Rice</a>
+            <a href="#">Wheat</a>
+            <a href="#">Chocolate</a>
+            <a href="#">Biscuit</a>
+            <a href="#">Cake</a>
+            <a href="#">Stationary</a>
+            <a href="#">More</a>
+        </nav>
+    </header>
+    <article class="art">
+        <p>Get 10% off on every up to 2000 order</p>
+    </article>
+    <aside class="asi">
+        <b>
+            <p>Buy.</p>
+        </b>
+        <p class="color">The Grocery which you want</p>
+    </aside>
+    <div class="section">
+        <div class="item">
+            <img src="Rice.jpg" alt="" width="100PX">
+            <p>Rice</p>
+        </div>
+        <div class="item">
+            <img src="chocolate.webp" alt="" width="100PX">
+            <p>Chocolate</p>
+        </div>
+        <div class="item">
+            <img src="Biscuits.jpg" alt="" width="100px">
+            <p>Biscuit</p>
+        </div>
+        <div class="item">
+            <img src="Soap.jpg" alt="" width="100px">
+            <p>Soap</p>
+        </div>
+        <div class="item">
+            <img src="Skin-cream.jpg" alt="" width="100px">
+            <p>Skin Creams</p>
+        </div>
+        <div class="item">
+            <img src="Stationary.jpg" alt="" width="100px">
+            <p>Stationary</p>
+        </div>
+    </div>
+    <aside class="asi">
+        <b>
+            <p>Buy.</p>
+        </b>
+        <p class="color">Top Brands</p>
+
+    </aside>
+    <section class="sec">
+        <div class="box">
+            <p class="aata">Aashirvaad Aata</p>
+            <img src="aashirvaad-atta-500x500.png" alt="" width="200px">
+        </div>
+        <div class="box2">
+            <p class="chocolate"> Amul Chocolate</p>
+            <img src="amul-chocolates-removebg-preview.png" alt="" width="200px">
+        </div>
+        <div class="box3">
+            <p class="Beardo">Beardo</p>
+            <img src="Deepseasoap.png" alt="" width="200px">
+        </div>
+
+    </section>
+</body>
+
+</html>
